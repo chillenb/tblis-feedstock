@@ -11,9 +11,9 @@ c_stdlib:
 c_stdlib_version:
 - '10.13'
 channel_sources:
-- conda-forge
+- conda-forge,defaults
 channel_targets:
-- chillenb
+- chillenb main
 cxx_compiler:
 - clangxx
 cxx_compiler_version:

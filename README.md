@@ -73,14 +73,14 @@ Current release info
 Installing tblis
 ================
 
-Installing `tblis` from the `chillenb/label/` channel can be achieved by adding `chillenb/label/` to your channels with:
+Installing `tblis` from the `chillenb` channel can be achieved by adding `chillenb` to your channels with:
 
 ```
-conda config --add channels chillenb/label/
+conda config --add channels chillenb
 conda config --set channel_priority strict
 ```
 
-Once the `chillenb/label/` channel has been enabled, `tblis` can be installed with `conda`:
+Once the `chillenb` channel has been enabled, `tblis` can be installed with `conda`:
 
 ```
 conda install tblis
@@ -95,26 +95,26 @@ mamba install tblis
 It is possible to list all of the versions of `tblis` available on your platform with `conda`:
 
 ```
-conda search tblis --channel chillenb/label/
+conda search tblis --channel chillenb
 ```
 
 or with `mamba`:
 
 ```
-mamba search tblis --channel chillenb/label/
+mamba search tblis --channel chillenb
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search tblis --channel chillenb/label/
+mamba repoquery search tblis --channel chillenb
 
 # List packages depending on `tblis`:
-mamba repoquery whoneeds tblis --channel chillenb/label/
+mamba repoquery whoneeds tblis --channel chillenb
 
 # List dependencies of `tblis`:
-mamba repoquery depends tblis --channel chillenb/label/
+mamba repoquery depends tblis --channel chillenb
 ```
 
 

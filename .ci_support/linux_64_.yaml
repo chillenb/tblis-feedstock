@@ -9,9 +9,9 @@ c_stdlib_version:
 cdt_name:
 - cos6
 channel_sources:
-- conda-forge
+- conda-forge,defaults
 channel_targets:
-- chillenb
+- chillenb main
 cxx_compiler:
 - gxx
 cxx_compiler_version:
